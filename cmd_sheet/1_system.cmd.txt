@@ -1,0 +1,71 @@
+1. login:
+   	telnet hostname
+   	ssh hostname
+   log out:
+    	exit / Ctrl+d
+
+2. ls -a  //Lists hidden files
+   ls -F //Displays file types, /:directries *: exe @: links
+   ls -lh //Displays long listingwith file size
+   ls -R //recursive listing
+   ls -t //list files sorted by data with newest file first
+   ls -tr // sorted by data with oldest file first
+   ls -l 
+   ll
+
+3. cd directory
+   cd ~ //back to home directory
+   cd ~user2 //go to home dir of user2
+   cd.. //go to parent dir
+   cd - //switch between current and previous dir
+
+4. tty //displays the pseudo terminal you are currently logged in
+ 
+5. who //displays logged users
+
+6. w // information in more details
+
+7.whoami //effective user
+
+8. logname //the real username
+
+9. id // user's id, username, GID
+
+10. groups // groups that a user is belongs to
+
+11. uname //system information
+    uname -a // system information details
+
+12. hostname // system name
+
+13. clear // clear the terminal screen
+
+14. data //displays current system date and time
+
+15./sbin/hwclock // hadware clock
+
+16. cal // display calendar
+
+17. uptime //system's current time, how long it has been up,
+
+18. which cmd // show the absolute path of the command 
+    which cat...
+
+19. whereis cat // displays the binary name and the full pathname of the command
+
+20. wc // word count: lines, words, characters 
+    wc /etc/profile
+
+21. man //help
+    man cat
+    cat -help //short help 
+    cat -?  
+
+22. apropos keyword // lists names of all man pages that include the specified keyword
+
+23. whatis .. // a short description
+
+24. script  //record all the information
+    exit
+
+25. kill a process  kill -9 1234

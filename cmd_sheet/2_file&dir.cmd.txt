@@ -1,0 +1,17 @@
+1./etc //Etcetera dir: holds most system configureation
+
+2. pwd // displays your current location
+
+3. mkdir -p ../../.. // create a hierarchy of sub-directories
+
+4. cat / more / less / head  filename
+
+   tail -f /var/log/messages :update system message
+
+5. strings / bin/cat //displays legible information embedded a non-text file
+
+6. paste -d -s -file1 file2 
+
+7. cat file.txt | cut -c1-8 > moid
+
+8. paste file1 file2 > file3
