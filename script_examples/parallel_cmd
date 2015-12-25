@@ -1,0 +1,8 @@
+for slave in $(cat ./regionservers)
+do
+{
+echo $slave
+	pdsh -w $slave mkdir /state/partition1/scratch/ji453898/zookeeper/
+}&
+done
+
